@@ -8,7 +8,7 @@ function SendNormalTextMessage(data){
         body: data,
         headers: {
             "Content-Type": "application/json",
-            Authorization: "Bearer YOURFACEBOOKPERMANENTBEARERTOKEN"
+            Authorization: "Bearer YOUR FACEBOOK TOKEN"
         }
     };
     const req = https.request(options,res => {
