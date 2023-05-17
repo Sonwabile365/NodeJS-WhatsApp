@@ -8,7 +8,7 @@ function SendNormalTextMessage(data){
         body: data,
         headers: {
             "Content-Type": "application/json",
-            Authorization: "Bearer EAANiZAoiq70gBAINShqoNmGZBk56UFQZCkIpLhguFnf1W2WTVLW92tnZAdnFe3J6BOnxWRMzHVQ0gKQtnFPKscfSpf7eXOG11hY0TC6gUVuAU8ZCbAY7QwmpfYxqeMefBqELMcZCQXhMgbnwvIUfjeTmoccZB7UVK9qmjgfxy5JG1FgZAhXubTTt"
+            Authorization: "Bearer YOURFACEBOOKPERMANENTBEARERTOKEN"
         }
     };
     const req = https.request(options,res => {
